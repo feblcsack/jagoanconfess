@@ -51,7 +51,7 @@ const SendSongForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg space-y-4">
+    <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-7 border  border-gray-300 p-6 bg-white rounded-lg shadow-lg space-y-4">
       <h2 className="text-2xl font-bold text-center text-gray-800">Kirim Lagu</h2>
       
       <input
