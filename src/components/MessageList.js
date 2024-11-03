@@ -31,15 +31,15 @@ const MessageList = () => {
               className="w-full h-40 object-cover rounded-lg"
             />
           )}
-          
-          <a 
+          <button className='flex px-4 py-2  bg-black rounded-xl text-white hover:text-zinc-300 hover:bg-zinc-950 mt-2 font-semibold'><a 
             href={msg.song.url} 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="inline-block text-blue-500 hover:text-blue-600 mt-2 underline"
+            className=""
           >
             Dengarkan di Spotify
-          </a>
+          </a></button>
+          
         </div>
       ))}
     </div>

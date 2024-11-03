@@ -106,7 +106,7 @@ const SendSongForm = () => {
 
       <button
         type="submit"
-        className="w-full py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 focus:outline-none"
+        className="w-full py-2 bg-zinc-900 text-white rounded-lg font-semibold hover:bg-zinc-800 focus:outline-none"
       >
         Kirim Lagu
       </button>
